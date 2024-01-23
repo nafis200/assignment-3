@@ -383,23 +383,47 @@
 
              </div>
             <!-- form div -->
-            <div class="lg:flex lg:gap-5">
+            <div id="all-div">
+              <div class="lg:flex lg:gap-10">
+                <!-- form action-->
+                <!-- name and email div -->
+                <label class="form-control w-full max-w-xs">
+                 <div class="label">
+                   <span class="label-text font-extrabold">your name</span>
+                 </div>
+                 <input type="text" placeholder="Your full name" class="input input-bordered w-full max-w-xs" />
+               </label>
+               <!-- your email -->
+               <label class="form-control w-full max-w-xs lg:ml-7">
+                 <div class="label">
+                   <span class="label-text font-extrabold">your Email</span>
+                 </div>
+                 <input type="text" placeholder="Your Email" class="input input-bordered w-full max-w-xs" />
+               </label>
+               <!-- end div -->
+             </div>
+             <div class="lg:flex lg:gap-10">
                <!-- form action-->
                <!-- name and email div -->
                <label class="form-control w-full max-w-xs">
                 <div class="label">
-                  <span class="label-text font-extrabold">your name</span>
+                  <span class="label-text font-extrabold">Subject</span>
                 </div>
-                <input type="text" placeholder="Your full name" class="input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Enter your subject" class="input input-bordered w-full max-w-xs" />
               </label>
               <!-- your email -->
-              <label class="form-control w-full max-w-xs">
+              <label class="form-control w-full max-w-xs lg:ml-7">
                 <div class="label">
-                  <span class="label-text font-extrabold">your Email</span>
+                  <span class="label-text font-extrabold">Phone number</span>
                 </div>
-                <input type="text" placeholder="Your Email" class="input input-bordered w-full max-w-xs" />
+                <input type="text" placeholder="Enter your phone number" class="input input-bordered w-full max-w-xs" />
               </label>
               <!-- end div -->
+            </div>
+             <div id="area" class="mt-4 w-full">
+              <span class="label-text font-extrabold block mb-4">Message</span>
+              <textarea placeholder="Message" class="textarea textarea-bordered textarea-lg w-full lg:w-1/2 lg:h-64 p-4" ></textarea>
+             </div>
             </div>
            </div>
         </section>
